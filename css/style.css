@@ -110,7 +110,7 @@ button:hover {
 }
 
 .cart {
-    background: white;
+    background: rgb(112, 51, 51);
     padding: 60px 8%;
     margin-top: 30px;
 }
