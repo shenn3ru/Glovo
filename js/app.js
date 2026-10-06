@@ -94,6 +94,9 @@ function displayCart() {
 
         return;
     }
+alert(
+    "Comanda ta a fost înregistrată cu succes!"
+);
 
     container.innerHTML = "";
 
