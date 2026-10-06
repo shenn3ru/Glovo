@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuickDelivery</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="logo">QuickDelivery</div>
+
+        <nav>
+            <a href="#home">Acasă</a>
+            <a href="#restaurants">Restaurante</a>
+            <a href="#cart">Coș</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <section id="home" class="hero">
+            <div>
+                <h1>Mâncarea ta preferată, livrată rapid.</h1>
+
+                <p>
+                    Alege restaurantul preferat și comandă
+                    mâncare direct la ușa ta.
+                </p>
+
+                <button onclick="scrollToRestaurants()">
+                    Vezi restaurantele
+                </button>
+            </div>
+        </section>
+
+        <section id="restaurants" class="restaurants">
+            <h2>Restaurante populare</h2>
+
+            <div id="restaurant-list" class="restaurant-list">
+                <!-- Restaurantele vor fi încărcate din JavaScript -->
+            </div>
+        </section>
+
+        <section id="cart" class="cart">
+            <h2>Coșul meu</h2>
+
+            <div id="cart-items">
+                <p>Coșul este gol.</p>
+            </div>
+
+            <h3>
+                Total:
+                <span id="cart-total">0</span> MDL
+            </h3>
+
+            <button onclick="placeOrder()">
+                Plasează comanda
+            </button>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>© 2026 QuickDelivery</p>
+    </footer>
+
+    <script src="js/app.js"></script>
+
+</body>
+</html>

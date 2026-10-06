@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "name": "Pizza House",
+        "category": "Pizza",
+        "deliveryTime": "30-40 min",
+        "deliveryPrice": 35
+    },
+    {
+        "id": 2,
+        "name": "Burger Point",
+        "category": "Burger",
+        "deliveryTime": "25-35 min",
+        "deliveryPrice": 30
+    },
+    {
+        "id": 3,
+        "name": "Sushi Express",
+        "category": "Sushi",
+        "deliveryTime": "40-50 min",
+        "deliveryPrice": 45
+    },
+    {
+        "id": 4,
+        "name": "Pasta Corner",
+        "category": "Paste",
+        "deliveryTime": "30-40 min",
+        "deliveryPrice": 25
+    }
+]
