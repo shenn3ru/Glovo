@@ -132,3 +132,11 @@ footer {
     transform: translateY(-5px);
     transition: 0.3s;
 }
+.search-input {
+    width: 100%;
+    max-width: 400px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
