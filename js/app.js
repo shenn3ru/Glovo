@@ -163,3 +163,9 @@ function scrollToRestaurants() {
 
 displayRestaurants();
 displayCart();
+function filterRestaurants() {
+    const query = document.getElementById("search-input").value.toLowerCase();
+    document.querySelectorAll(".restaurant-card").forEach(card => {
+        card.style.display = card.textContent.toLowerCase().includes(query) ? "" : "none";
+    });
+}

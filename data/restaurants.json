@@ -26,5 +26,13 @@
         "category": "Paste",
         "deliveryTime": "30-40 min",
         "deliveryPrice": 25
+    },
+
+        {
+        "id": 5,
+        "name": "Shaorma King",
+        "category": "Fast-food",
+        "deliveryTime": "20-30 min",
+        "deliveryPrice": 20
     }
 ]
